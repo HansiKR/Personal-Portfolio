@@ -1,0 +1,409 @@
+/*body*/
+body{
+    height: 100%;
+    width: 100%;
+    font-family: sans-serif;
+    color: #222;
+    padding: 0;
+    margin: 0;
+    padding-top: 100px;
+    
+}
+
+a {
+    text-decoration: none;
+    color: darkgrey;
+}
+
+a:hover{
+    text-decoration: none;
+    color: white;
+}
+
+
+/*Navigation*/
+.navbar{
+    padding: 15px;
+}
+
+.navbar-nav li{
+    padding-right: 20px;
+}
+
+.nav-link {
+    font-size: 18px !important;
+} 
+
+strong {
+    color: #020207;
+}
+
+#anchor{
+    display: block; 
+    position: relative; 
+    top: -250px; 
+    visibility: visible;
+}
+
+/*Carousel*/
+
+.carousel-inner img{
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-40%);
+}
+
+.carousel-caption h1{
+    text-transform: uppercase;
+    font-size: 300%;
+    text-shadow: 2px 1px 30px white;
+}
+
+.carousel-caption p{
+    font-size: 150%;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 10px black;
+}
+
+/*Log In*/
+#form{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.btn-primary{
+    background-color: #020207;
+    border: 0;
+}
+
+.btn-primary:hover {
+    background-color: grey;
+}
+
+/*Two Columns*/
+
+#twoCol .about {
+    text-align: center;
+    padding: 40px;
+}
+
+
+/*parallex*/
+#plx{
+    background: url(../img/cover.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+#plx h2{
+    font-size: 25px;
+    margin: 40px;
+    padding: 100px;
+}
+
+/*Mission*/
+
+#plx2{
+    background: url(../img/cover2.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    height: 300px;
+}
+
+#plx2 h1{
+    padding-top: 5%;
+}
+
+
+#plx2 h3{
+    font-size: 40px;
+}
+
+#mission h4{
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 30px;
+}
+
+
+#mission p{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Image gallery */
+
+#gallery {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 30px;
+    font-family: serif;
+    border: 3px solid #020207;
+    }
+
+.imgrow {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 0 4px;
+    }
+
+
+.column {
+      flex: 25%;
+      max-width: 25%;
+      padding: 0 4px;
+    }
+
+.column img {
+      margin-top: 8px;
+      vertical-align: middle;
+      width: 100%;
+      height: 300px;
+    }
+
+/*Archive and Content*/
+
+#quote h4{
+    font-size: 35px;
+    font-family: serif;
+    text-shadow: 1px 1px 2px midnightblue;
+    color: #020207;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#threeCol a {
+    color: #020207;
+}
+
+#threeCol a:hover{
+    color: grey;
+    text-decoration: none;
+}
+
+#threeCol a:visited{
+    color: cadetblue;
+}
+
+#threeCol h1{
+    font-family: fantasy;
+    text-decoration: underline;
+    color: midnightblue;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    font-size: 40px;
+}
+
+#threeCol div {
+    margin-bottom: 20px;
+}
+
+#cards img{
+    height: 200px;
+    width: 250px;
+    margin: auto;
+}
+
+#cards .card-deck , .card {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;    
+}
+
+#cards h3{
+    margin-bottom: 30px;
+    font-family: fantasy;
+    font-size: 300%;
+}
+
+.card-title {
+    color: #020207;
+    font-family: serif; 
+    font-size: 25px;
+}
+
+/*Footer*/
+footer{
+    background-color:#020207;
+    color: darkgrey;
+    padding-top: 32px;
+    margin-top: 30px;
+}
+
+.light{
+    border-top: 1px solid grey;
+    width: 75%;
+    margin-top: 16px;
+    margin-bottom: 20px; 
+}
+
+
+/*Media Queries*/
+
+/*Desktops*/
+@media(max-width: 1200px){
+        
+    .carousel-caption h1{
+        text-transform: uppercase;
+        font-size: 200%;
+        text-shadow: 2px 1px 30px white;
+    }
+}
+
+/*tablets */
+@media(max-width: 992px){
+    .carousel-caption {
+        top:40%;
+    }
+    
+    .carousel-caption h1{
+        text-transform: uppercase;
+        font-size: 140%;
+        text-shadow: 2px 1px 30px white;
+    }
+
+    .carousel-caption p{
+        font-size: 120%;
+        letter-spacing: 1px;
+        text-shadow: 1px 1px 10px black;
+    }
+    
+    #login h3{
+        font-size: 90%;
+    }
+    
+    .form-group{
+        font-size: 80%;
+    }
+    
+    .btn {
+        font-size: 80%;
+    }
+    
+    #twoCol p{
+        font-size: 80%;
+    }    
+    
+        
+    #plx h2{
+        font-size: 15px;
+        margin: 10px;
+        padding: 30px;
+    }
+        
+    #plx2 h1{
+        font-size: 70px;
+        padding-top: 100px;            
+    }
+    
+    #plx2 h3, #gallery{
+        font-size: 25px;
+    }
+    
+    footer a, h5, p{
+        font-size: 80%;
+    }
+    
+    .light {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .column {
+    flex: 50%;
+    max-width: 50%;
+    }
+    
+    
+}
+
+/*Mobile Phones*/
+@media(max-width: 576px){
+    .carousel-caption {
+        top:45%;
+    }
+    
+    .carousel-caption h1{
+        text-transform: uppercase;
+        font-size: 100%;
+        text-shadow: 2px 1px 30px white;
+    }
+
+    .carousel-caption p{
+        font-size: 70%;
+        letter-spacing: 1px;
+        text-shadow: 1px 1px 10px black;
+    }
+    
+    #form h3{
+        font-size: 90%;
+    }
+    
+    .form-group {
+        font-size: 70%;
+    }
+    
+    
+    #mission h4, #quote h4, .card h2{
+        font-size: 110%;
+    }
+    
+    .card p{
+        padding: none;
+        margin: 2px;        
+        font-size: 90%;
+        
+        
+    }
+    #plx h2{
+        font-size: 15px;
+        margin: 20px;
+        top: 50%;
+    }
+    
+    #cards h3{
+        font-size: 120%;
+    }
+    
+    #plx2 h1{
+        font-size: 50px;
+        padding-top: 100px;            
+    }
+    
+    #plx2 h3, #gallery{
+        font-size: 20px;
+    }
+    
+    .column {
+        flex: 100%;
+        max-width: 100%;
+    }
+    
+    footer a, h5, p{
+        font-size: 70%;
+    }
+    
+}
+
