@@ -1,4 +1,4 @@
-# Personal-Portfolio
+# Personal-Portfolio-Website-Redesign
 Redesigned a badly designed personal portfolio website using vanilla HTML, CSS and Bootstrap. 
 
 Original Site: https://www.historianofthefuturex.com/
